@@ -47,7 +47,7 @@ A través de seis lecciones aprenderás cómo funcionan los sitios web, cómo or
 
 ---
 
-### Lección 2: Introducción a HTML (10 minutos)
+### Lección 2: Introducción a HTML (6 minutos)
 
 **Descripción:** Aprenderemos qué es HTML y cómo utilizar etiquetas para organizar el contenido de nuestra primera página web.
 
@@ -73,15 +73,18 @@ A través de seis lecciones aprenderás cómo funcionan los sitios web, cómo or
 </head>
 <body>
     <h1>¡Hola, mundo!</h1>
-    <p>Me llamo Sofía y estoy aprendiendo HTML.</p>
-    <p>Me gustan los videojuegos y la tecnología.</p>
+    <p>Me llamo Sofía y estoy aprendiendo desarrollo web.</p>
+    <p>Me apasionan los videojuegos y la robótica.</p>
 </body>
 </html>
 ```
 
-**Video:** [Pendiente de grabación]
+**Video:** [Ver Lección 2 (5:55)](https://www.youtube.com/watch?v=4hkSICE5we8)
 
-**Práctica en CodePen:** [Pendiente de crear]
+**Práctica en CodePen:** [Clic para programar](https://codepen.io/cursoweb-html/pen/ByWEaPY?editors=1000)
+
+**Archivo base:** [`starter-files/leccion2-starter.html`](starter-files/leccion2-starter.html)  
+**Ejemplo terminado:** [`completed-examples/leccion2-completo.html`](completed-examples/leccion2-completo.html)
 
 **Reto práctico:** Modifica el título y los párrafos utilizando tu nombre y tus intereses.
 
