@@ -137,7 +137,7 @@ A través de seis lecciones aprenderás cómo funcionan los sitios web, cómo or
 </p>
 ```
 
-**Video:** [Pendiente de grabación]
+**Video:** [Ver Lección 3](https://youtu.be/lkWg8QwUNbE)
 
 **Práctica en CodePen:** [Pendiente de crear]
 
