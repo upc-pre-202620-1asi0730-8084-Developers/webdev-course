@@ -140,7 +140,6 @@ A través de seis lecciones aprenderás cómo funcionan los sitios web, cómo or
 - [Plantilla inicial](starter-files/leccion3-starter.html).
 - [Ejemplo terminado](completed-examples/leccion3-completo.html).
 - [Guion con acciones, tiempos y narración](scripts/leccion3-guion.md).
-- [Guía paso a paso para grabar y publicar](scripts/leccion3-como-grabar.md).
 - [Cuatro preguntas de autoevaluación](scripts/leccion3-cuestionario.md).
 
 **Uso en CodePen:** Copia al panel HTML solamente el contenido entre `<body>` y `</body>` de la plantilla. Deja CSS y JavaScript vacíos. El enlace precargado de la práctica se añadirá cuando esté guardado y probado.
