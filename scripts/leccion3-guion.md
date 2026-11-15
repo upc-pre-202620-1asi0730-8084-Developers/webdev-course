@@ -65,38 +65,35 @@
 
 ### Ampliación breve de las listas
 
-El PDF pide listas y menciona ul en el ejemplo de la lección 3. Los siguientes ejemplos de ol y listas anidadas son una ampliación. Dedicar unos 45 a 60 segundos, ajustando el ensayo para mantener la lección entre 8 y 10 minutos.
+El PDF pide listas y menciona ul en el ejemplo de la lección 3. La lista ordenada dentro de un pasatiempo es una ampliación breve. Dedicar unos 45 a 60 segundos, ajustando el ensayo para mantener la lección entre 8 y 10 minutos.
 
-**Pantalla y acciones:** Después de mostrar la lista simple, cambiar el tercer pasatiempo a Practicar deportes y añadir una lista interior dentro de ese li. Conservar Videojuegos y Música como los otros dos elementos de la lista principal.
-
-```html
-<li>
-  Practicar deportes
-  <ul>
-    <li>Fútbol</li>
-    <li>Natación</li>
-  </ul>
-</li>
-```
-
-**Voz:**
-
-> ul agrupa una lista con viñetas y li representa cada elemento. Dentro del pasatiempo Practicar deportes podemos añadir otra lista: Fútbol y Natación. Esa lista interior pertenece a Deportes, por eso la colocamos dentro de su li, antes de cerrarlo.
-
-**Pantalla y acciones:** Debajo de la lista principal, añadir el mismo conjunto de pasatiempos ordenado por preferencia.
+**Pantalla y acciones:** Conservar los tres pasatiempos: Jugar videojuegos, Escuchar música y Construir robots. Dentro del li Jugar videojuegos, añadir una lista ol con los juegos favoritos en orden de preferencia. Este es el código conjunto al terminar el bloque de listas:
 
 ```html
-<h2>Mis pasatiempos por preferencia</h2>
-<ol>
-  <li>Jugar videojuegos</li>
+<h2>Mis actividades favoritas</h2>
+<ul>
+  <li>
+    Jugar videojuegos
+    <ol>
+      <li>Mario Bros</li>
+      <li>Sonic</li>
+      <li>Legend of Zelda</li>
+    </ol>
+  </li>
   <li>Escuchar música</li>
-  <li>Practicar deportes</li>
-</ol>
+  <li>Construir robots</li>
+</ul>
 ```
 
 **Voz:**
 
-> Si quiero mostrar mis pasatiempos por preferencia, uso ol. El navegador añade los números. Dentro seguimos usando li para cada pasatiempo. Recuerda: ul muestra viñetas, ol muestra números y li es un elemento de cualquiera de las dos listas.
+> Nuestra lista de pasatiempos usa ul porque no estamos indicando un orden. Dentro de Jugar videojuegos voy a añadir mis juegos favoritos por preferencia: primero Mario Bros, después Sonic y luego Legend of Zelda.
+>
+> Para numerarlos usamos ol, de ordered list, que significa lista ordenada. Cada juego sigue siendo un li, un elemento de la lista. El navegador añade los números uno, dos y tres.
+>
+> Esta lista de juegos pertenece a Jugar videojuegos. Por eso colocamos ol dentro de ese li y lo cerramos antes de pasar a Escuchar música. Construir robots se queda como nuestro tercer pasatiempo.
+
+**Transición:** Después del cierre de la lista principal ul, continuar con el h2 Mi espacio para crear y la imagen del siguiente bloque.
 
 ## Bloque 3: Una imagen y su descripción (3:15 a 5:30)
 

@@ -110,27 +110,18 @@ A través de seis lecciones aprenderás cómo funcionan los sitios web, cómo or
 
 ```html
 <h2>Mis actividades favoritas</h2>
-
-<p>Estas son algunas cosas que me gusta hacer:</p>
-
 <ul>
-    <li>Jugar videojuegos</li>
-    <li>Escuchar música</li>
-    <li>
-        Practicar deportes
-        <ul>
-            <li>Fútbol</li>
-            <li>Natación</li>
-        </ul>
-    </li>
+  <li>
+    Jugar videojuegos
+    <ol>
+      <li>Mario Bros</li>
+      <li>Sonic</li>
+      <li>Legend of Zelda</li>
+    </ol>
+  </li>
+  <li>Escuchar música</li>
+  <li>Construir robots</li>
 </ul>
-
-<h2>Mis pasatiempos por preferencia</h2>
-<ol>
-    <li>Jugar videojuegos</li>
-    <li>Escuchar música</li>
-    <li>Practicar deportes</li>
-</ol>
 
 <h2>Mi espacio para crear</h2>
 <img src="https://placehold.co/320x180/png?text=Mi+zona+creativa"
