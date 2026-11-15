@@ -17,7 +17,7 @@ A través de seis lecciones aprenderás cómo funcionan los sitios web, cómo or
 
 **Herramientas necesarias:** Un navegador web y CodePen, una herramienta gratuita en línea que permite escribir HTML y CSS sin instalar programas.
 
-**Repositorio de código fuente:** [Agregar enlace del repositorio]
+**Repositorio de código fuente:** [webdev-course](https://github.com/upc-pre-202620-1asi0730-8084-Developers/webdev-course)
 
 ---
 
@@ -108,25 +108,27 @@ A través de seis lecciones aprenderás cómo funcionan los sitios web, cómo or
 **Código de ejemplo:**
 
 ```html
-<h1>Mis actividades favoritas</h1>
+<h2>Mis actividades favoritas</h2>
 
 <p>Estas son algunas cosas que me gusta hacer:</p>
 
 <ul>
     <li>Jugar videojuegos</li>
     <li>Escuchar música</li>
-    <li>Practicar deportes</li>
+    <li>Construir robots</li>
 </ul>
 
-<img src="https://placehold.co/300x180"
-     alt="Imagen de ejemplo">
+<h2>Mi espacio para crear</h2>
+<img src="https://placehold.co/320x180/png?text=Mi+zona+creativa"
+     alt="Recuadro con el texto Mi zona creativa"
+     width="320"
+     height="180">
 
 <p>
-    Visita
-    <a href="https://www.wikipedia.org">
-        Wikipedia
-    </a>
-    para aprender más.
+    Para descubrir nuevos temas, visita
+    <a href="https://es.wikipedia.org/" target="_blank" rel="noopener">
+        Wikipedia en español
+    </a>.
 </p>
 ```
 
@@ -134,7 +136,18 @@ A través de seis lecciones aprenderás cómo funcionan los sitios web, cómo or
 
 **Práctica en CodePen:** [Pendiente de crear]
 
-**Reto práctico:** Crea una lista de tus pasatiempos favoritos y agrega una imagen y un enlace.
+**Material de la lección:**
+- [Plantilla inicial](starter-files/leccion3-starter.html).
+- [Ejemplo terminado](completed-examples/leccion3-completo.html).
+- [Guion con acciones, tiempos y narración](scripts/leccion3-guion.md).
+- [Guía paso a paso para grabar y publicar](scripts/leccion3-como-grabar.md).
+- [Cuatro preguntas de autoevaluación](scripts/leccion3-cuestionario.md).
+
+**Uso en CodePen:** Copia al panel HTML solamente el contenido entre `<body>` y `</body>` de la plantilla. Deja CSS y JavaScript vacíos. El enlace precargado de la práctica se añadirá cuando esté guardado y probado.
+
+**Duración de grabación prevista:** 8 a 10 minutos, según el ensayo.
+
+**Reto práctico:** Crea una lista con tres pasatiempos favoritos, agrega una imagen con una descripción `alt` adecuada y un enlace con texto claro. Pausa el video para practicar y comprueba el resultado.
 
 ---
 
@@ -401,7 +414,7 @@ h1 {
 
 **Documentación CSS:** https://developer.mozilla.org/es/docs/Web/CSS
 
-**Repositorio GitHub:** [Pendiente de agregar]
+**Repositorio GitHub:** [webdev-course](https://github.com/upc-pre-202620-1asi0730-8084-Developers/webdev-course)
 
 ---
 
