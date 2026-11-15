@@ -213,36 +213,46 @@ p {
 **Código HTML:**
 
 ```html
-<div class="tarjeta-perfil">
-    <img
-        src="https://placehold.co/150x150"
-        alt="Foto de perfil"
-        class="foto-perfil"
-    >
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-    <h1>¡Hola, soy Sofía!</h1>
+    <div class="tarjeta-perfil">
+        <img
+            src="https://placehold.co/150x150"
+            alt="Foto de perfil"
+            class="foto-perfil"
+        >
 
-    <p>Estudiante de secundaria</p>
+        <h1>¡Hola, soy Sofía!</h1>
 
-    <h2>Sobre mí</h2>
+        <p>Estudiante de secundaria</p>
 
-    <p>
-        Me gusta la tecnología, el dibujo
-        y aprender a crear páginas web.
-    </p>
+        <h2>Sobre mí</h2>
 
-    <h2>Mis pasatiempos</h2>
+        <p>
+            Me gusta la tecnología, el dibujo
+            y aprender a crear páginas web.
+        </p>
 
-    <ul>
-        <li>Escuchar música</li>
-        <li>Dibujar</li>
-        <li>Jugar videojuegos</li>
-    </ul>
+        <h2>Mis pasatiempos</h2>
 
-    <a href="https://www.wikipedia.org">
-        Mi página favorita
-    </a>
-</div>
+        <ul>
+            <li>Escuchar música</li>
+            <li>Dibujar</li>
+            <li>Jugar videojuegos</li>
+        </ul>
+
+        <a href="https://www.wikipedia.org" target="_blank">
+            Mi página favorita
+        </a>
+    </div>
+
+</body>
+</html>
 ```
 
 **Código CSS:**
@@ -267,6 +277,7 @@ body {
     width: 120px;
     height: 120px;
     border-radius: 50%;
+    border: 3px solid #2563eb;
 }
 
 h1 {
@@ -286,13 +297,19 @@ ul {
 }
 
 a {
-    color: #2563eb;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
 }
 ```
 
-**Video:** [Pendiente de grabación]
+**Video:** [https://youtu.be/g07elFqfz8E](https://youtu.be/g07elFqfz8E)
 
-**Proyecto en CodePen:** [Pendiente de crear]
+**Proyecto en CodePen:** [https://codepen.io/editor/Elizabeth-Apaza-the-decoder/pen/01a1dbf6-c3b5-72d7-8baa-904846895597](https://codepen.io/editor/Elizabeth-Apaza-the-decoder/pen/01a1dbf6-c3b5-72d7-8baa-904846895597)]
 
 **Reto práctico:** Personaliza tu perfil utilizando tu nombre, tus pasatiempos y tus colores favoritos.
 
