@@ -17,7 +17,7 @@ A través de seis lecciones aprenderás cómo funcionan los sitios web, cómo or
 
 **Herramientas necesarias:** Un navegador web y CodePen, una herramienta gratuita en línea que permite escribir HTML y CSS sin instalar programas.
 
-**Repositorio de código fuente:** [Agregar enlace del repositorio]
+**Repositorio de código fuente:** [webdev-course](https://github.com/upc-pre-202620-1asi0730-8084-Developers/webdev-course)
 
 ---
 
@@ -90,7 +90,7 @@ A través de seis lecciones aprenderás cómo funcionan los sitios web, cómo or
 
 ---
 
-### Lección 3: Añadir más elementos HTML (8 minutos)
+### Lección 3: Añadir más elementos HTML (6 minutos aproximados)
 
 **Descripción:** Aprenderemos a mejorar nuestras páginas agregando listas, imágenes y enlaces.
 
@@ -100,7 +100,8 @@ A través de seis lecciones aprenderás cómo funcionan los sitios web, cómo or
 - Agregar enlaces hacia otras páginas.
 
 **Conceptos principales:**
-- Listas: `<ul>` y `<li>`.
+- Listas con viñetas: `<ul>` y `<li>`.
+- Ampliación breve: listas numeradas con `<ol>` y listas dentro de un `<li>`.
 - Imágenes: `<img>`.
 - Enlaces: `<a>`.
 - Atributos `src`, `alt` y `href`.
@@ -108,33 +109,51 @@ A través de seis lecciones aprenderás cómo funcionan los sitios web, cómo or
 **Código de ejemplo:**
 
 ```html
-<h1>Mis actividades favoritas</h1>
-
-<p>Estas son algunas cosas que me gusta hacer:</p>
-
+<h2>Mis actividades favoritas</h2>
 <ul>
-    <li>Jugar videojuegos</li>
-    <li>Escuchar música</li>
-    <li>Practicar deportes</li>
+  <li>
+    Jugar videojuegos
+    <ol>
+      <li>Mario Bros</li>
+      <li>Sonic</li>
+      <li>Legend of Zelda</li>
+    </ol>
+  </li>
+  <li>Escuchar música</li>
+  <li>Construir robots</li>
 </ul>
 
-<img src="https://placehold.co/300x180"
-     alt="Imagen de ejemplo">
+<h2>El robot deseado</h2>
+<img src="https://www.infobae.com/resizer/v2/AWR5GN3IYREQVHYM22WCQFYACE.png?auth=e519c915660f123c03cc4c3414fba9c4d6fe8ae0ae2d55573b20120bd41d75c3&amp;smart=true&amp;width=1200&amp;height=900&amp;quality=85"
+     alt="Robot con forma de pato"
+     width="320"
+     height="240">
 
 <p>
-    Visita
-    <a href="https://www.wikipedia.org">
-        Wikipedia
-    </a>
-    para aprender más.
+    Para conocer este robot, lee
+    <a href="https://www.infobae.com/tecno/2026/10/24/los-robots-pato-de-nvidia-que-duermen-y-juegan-tuvieron-20000-pedidos-de-preventa-en-un-dia/" target="_blank" rel="noopener">
+        la noticia del robot pato en Infobae
+    </a>.
 </p>
 ```
 
-**Video:** [Pendiente de grabación]
+**Video:** [Ver Lección 3](https://youtu.be/lkWg8QwUNbE)
 
-**Práctica en CodePen:** [Pendiente de crear]
+**Práctica en CodePen:** [Clic para programar](https://codepen.io/editor/Fabian-Sandoval-the-sans/pen/01a1dce3-ef14-7f6b-8689-bee89ca86476)
 
-**Reto práctico:** Crea una lista de tus pasatiempos favoritos y agrega una imagen y un enlace.
+**Material de la lección:**
+- [Plantilla inicial](starter-files/leccion3-starter.html).
+- [Ejemplo terminado](completed-examples/leccion3-completo.html).
+- [Guion con acciones, tiempos y narración](scripts/leccion3-guion.md).
+- [Cuatro preguntas de autoevaluación](scripts/leccion3-cuestionario.md).
+
+**Uso en CodePen:** Copia al panel HTML solamente el contenido entre `<body>` y `</body>` de la plantilla. Deja CSS y JavaScript vacíos. Abre la práctica en CodePen desde el enlace de esta lección.
+
+**Duración de grabación prevista:** Aproximadamente 6 minutos con escritura, búsqueda de la imagen y demostraciones, según el ensayo.
+
+**Alcance de las listas:** El enunciado pide listas y su ejemplo menciona `<ul>`. Las listas numeradas y anidadas se incluyen como una ampliación breve para distinguir el contenedor (`<ul>` o `<ol>`) de cada elemento (`<li>`). Una lista interior debe estar dentro del `<li>` al que pertenece.
+
+**Reto práctico:** Crea una lista con tres pasatiempos favoritos, agrega una imagen con una descripción `alt` adecuada y un enlace con texto claro. Pausa el video para practicar y comprueba el resultado.
 
 ---
 
@@ -404,7 +423,7 @@ h1 {
 
 **Documentación CSS:** https://developer.mozilla.org/es/docs/Web/CSS
 
-**Repositorio GitHub:** https://github.com/upc-pre-202620-1asi0730-8084-Developers/webdev-course.git
+**Repositorio GitHub:** [webdev-course](https://github.com/upc-pre-202620-1asi0730-8084-Developers/webdev-course)
 
 ---
 
