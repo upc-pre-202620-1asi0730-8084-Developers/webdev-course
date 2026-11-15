@@ -191,9 +191,12 @@ p {
 }
 ```
 
-**Video:** [Pendiente de grabación]
+**Video:** [Ver Lección 4 (10:06)](https://youtu.be/u8W6fZHI9uI)
 
 **Práctica en CodePen:** [Pendiente de crear]
+
+**Archivo base:** [`starter-files/leccion4-starter.html`](starter-files/leccion4-starter.html)  
+**Ejemplo terminado:** [`completed-examples/leccion4-completo.html`](completed-examples/leccion4-completo.html)
 
 **Reto práctico:** Cambia el color del título, el fondo y el borde de tu página.
 
