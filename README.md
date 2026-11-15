@@ -41,7 +41,7 @@ A través de seis lecciones aprenderás cómo funcionan los sitios web, cómo or
 
 **Ejemplo:** Compararemos una página web con una casa: HTML representa su estructura y CSS se encarga de su decoración.
 
-**Video:** [Pendiente de grabación]
+**Video:** https://youtu.be/gIv56sn6fNg
 
 **Actividad:** Identifica tres páginas web que utilizas frecuentemente y observa cómo están organizadas.
 
@@ -379,9 +379,9 @@ h1 {
 <title>Mi página</title>
 ```
 
-**Video:** [Pendiente de grabación]
+**Video:** https://youtu.be/cxNP9bcKNB8
 
-**Práctica en CodePen:** [Pendiente de crear]
+**Práctica en CodePen:** https://codepen.io/editor/oncmtgqa-the-flexboxer/pen/01a1dd34-04da-73df-9797-3a54e6f2ae53
 
 **Actividad final:** Revisa tu página de perfil, identifica posibles errores y realiza mejoras.
 
@@ -401,7 +401,7 @@ h1 {
 
 **Documentación CSS:** https://developer.mozilla.org/es/docs/Web/CSS
 
-**Repositorio GitHub:** [Pendiente de agregar]
+**Repositorio GitHub:** https://github.com/upc-pre-202620-1asi0730-8084-Developers/webdev-course.git
 
 ---
 
@@ -415,17 +415,17 @@ h1 {
 
 **Ciclo académico:** 202620
 
-**NRC:** [Completar]
+**NRC:** 8084
 
-**Nombre del equipo:** [Completar]
+**Nombre del equipo:** Developers
 
-**Team Leader:** [Completar]
+**Team Leader:** Elizabeth Noelia Apaza Bocanegra
 
 **Integrantes:**
-- [Integrante 1]
-- [Integrante 2]
-- [Integrante 3]
-- [Integrante 4]
-- [Integrante 5]
+- Elizabeth Noelia Apaza Bocanegra
+- Mathias Andree Cardenas Huaman
+- Leonardo Gabriel López Torres
+- Elias Daniel Ramos Cerdan
+- Fabian Jesus Sandoval Cueto
 
-**Fecha de entrega:** [Completar]
+**Fecha de entrega:** 14/11/2026
