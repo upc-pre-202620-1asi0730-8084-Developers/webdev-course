@@ -63,6 +63,41 @@
 
 **Demostración:** Cambiar el tercer pasatiempo y volver a «Construir robots», para que el resultado coincida con la referencia.
 
+### Ampliación breve de las listas
+
+El PDF pide listas y menciona ul en el ejemplo de la lección 3. Los siguientes ejemplos de ol y listas anidadas son una ampliación. Dedicar unos 45 a 60 segundos, ajustando el ensayo para mantener la lección entre 8 y 10 minutos.
+
+**Pantalla y acciones:** Después de mostrar la lista simple, cambiar el tercer pasatiempo a Practicar deportes y añadir una lista interior dentro de ese li. Conservar Videojuegos y Música como los otros dos elementos de la lista principal.
+
+```html
+<li>
+  Practicar deportes
+  <ul>
+    <li>Fútbol</li>
+    <li>Natación</li>
+  </ul>
+</li>
+```
+
+**Voz:**
+
+> ul agrupa una lista con viñetas y li representa cada elemento. Dentro del pasatiempo Practicar deportes podemos añadir otra lista: Fútbol y Natación. Esa lista interior pertenece a Deportes, por eso la colocamos dentro de su li, antes de cerrarlo.
+
+**Pantalla y acciones:** Debajo de la lista principal, añadir el mismo conjunto de pasatiempos ordenado por preferencia.
+
+```html
+<h2>Mis pasatiempos por preferencia</h2>
+<ol>
+  <li>Jugar videojuegos</li>
+  <li>Escuchar música</li>
+  <li>Practicar deportes</li>
+</ol>
+```
+
+**Voz:**
+
+> Si quiero mostrar mis pasatiempos por preferencia, uso ol. El navegador añade los números. Dentro seguimos usando li para cada pasatiempo. Recuerda: ul muestra viñetas, ol muestra números y li es un elemento de cualquiera de las dos listas.
+
 ## Bloque 3: Una imagen y su descripción (3:15 a 5:30)
 
 **Pantalla y acciones:** Escribir el subtítulo. Añadir `img` por partes: primero `src`, luego `alt`. Explicar las comillas y mostrar la imagen. Añadir las dimensiones al final como detalle breve.
@@ -148,7 +183,7 @@
 
 ## Cuidados técnicos para la explicación
 
-- No describir las listas con ul como listas numeradas. Las listas numeradas usan ol y quedan fuera del objetivo principal.
+- Distinguir ul (viñetas), ol (numeración) y li (elemento). Presentar ol y la lista interior como una ampliación breve.
 - No decir que img es la única etiqueta sin cierre.
 - No presentar alt como un texto que aparece al pasar el cursor.
 - No confundir href con src.

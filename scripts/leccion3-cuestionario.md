@@ -45,7 +45,8 @@ Estas preguntas pueden trasladarse a Google Forms, como propone la guía del equ
 
 Personaliza la plantilla de la lección 3. Al terminar, comprueba:
 
-- Hay una lista con tres elementos li dentro de ul.
+- La lista principal tiene tres elementos li directamente dentro de ul.
+- Como ampliación, hay una lista de deportes dentro de su li y una lista ol con los pasatiempos ordenados por preferencia.
 - La imagen carga y tiene una descripción alt que coincide con su contenido.
 - El enlace tiene un texto claro y abre la dirección esperada.
 

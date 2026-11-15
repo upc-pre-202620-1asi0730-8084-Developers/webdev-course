@@ -100,7 +100,8 @@ A través de seis lecciones aprenderás cómo funcionan los sitios web, cómo or
 - Agregar enlaces hacia otras páginas.
 
 **Conceptos principales:**
-- Listas: `<ul>` y `<li>`.
+- Listas con viñetas: `<ul>` y `<li>`.
+- Ampliación breve: listas numeradas con `<ol>` y listas dentro de un `<li>`.
 - Imágenes: `<img>`.
 - Enlaces: `<a>`.
 - Atributos `src`, `alt` y `href`.
@@ -115,8 +116,21 @@ A través de seis lecciones aprenderás cómo funcionan los sitios web, cómo or
 <ul>
     <li>Jugar videojuegos</li>
     <li>Escuchar música</li>
-    <li>Construir robots</li>
+    <li>
+        Practicar deportes
+        <ul>
+            <li>Fútbol</li>
+            <li>Natación</li>
+        </ul>
+    </li>
 </ul>
+
+<h2>Mis pasatiempos por preferencia</h2>
+<ol>
+    <li>Jugar videojuegos</li>
+    <li>Escuchar música</li>
+    <li>Practicar deportes</li>
+</ol>
 
 <h2>Mi espacio para crear</h2>
 <img src="https://placehold.co/320x180/png?text=Mi+zona+creativa"
@@ -145,6 +159,8 @@ A través de seis lecciones aprenderás cómo funcionan los sitios web, cómo or
 **Uso en CodePen:** Copia al panel HTML solamente el contenido entre `<body>` y `</body>` de la plantilla. Deja CSS y JavaScript vacíos. El enlace precargado de la práctica se añadirá cuando esté guardado y probado.
 
 **Duración de grabación prevista:** 8 a 10 minutos, según el ensayo.
+
+**Alcance de las listas:** El enunciado pide listas y su ejemplo menciona `<ul>`. Las listas numeradas y anidadas se incluyen como una ampliación breve para distinguir el contenedor (`<ul>` o `<ol>`) de cada elemento (`<li>`). Una lista interior debe estar dentro del `<li>` al que pertenece.
 
 **Reto práctico:** Crea una lista con tres pasatiempos favoritos, agrega una imagen con una descripción `alt` adecuada y un enlace con texto claro. Pausa el video para practicar y comprueba el resultado.
 
