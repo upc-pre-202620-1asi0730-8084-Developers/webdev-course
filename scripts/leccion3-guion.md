@@ -4,6 +4,8 @@
 
 **Video:** [Ver Lección 3](https://youtu.be/lkWg8QwUNbE)
 
+**Práctica en CodePen:** [Clic para programar](https://codepen.io/editor/Fabian-Sandoval-the-sans/pen/01a1dce3-ef14-7f6b-8689-bee89ca86476)
+
 **Duración orientativa:** 6 minutos con escritura y demostraciones. Ensayar y ajustar dentro de los 5 a 15 minutos por lección que pide el enunciado.
 
 Continuar desde el contenido terminado de la lección 2. No volver a explicar títulos, párrafos, estructura HTML ni el concepto general de atributo. Usar únicamente CodePen en el navegador.

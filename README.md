@@ -139,7 +139,7 @@ A través de seis lecciones aprenderás cómo funcionan los sitios web, cómo or
 
 **Video:** [Ver Lección 3](https://youtu.be/lkWg8QwUNbE)
 
-**Práctica en CodePen:** [Pendiente de crear]
+**Práctica en CodePen:** [Clic para programar](https://codepen.io/editor/Fabian-Sandoval-the-sans/pen/01a1dce3-ef14-7f6b-8689-bee89ca86476)
 
 **Material de la lección:**
 - [Plantilla inicial](starter-files/leccion3-starter.html).
@@ -147,7 +147,7 @@ A través de seis lecciones aprenderás cómo funcionan los sitios web, cómo or
 - [Guion con acciones, tiempos y narración](scripts/leccion3-guion.md).
 - [Cuatro preguntas de autoevaluación](scripts/leccion3-cuestionario.md).
 
-**Uso en CodePen:** Copia al panel HTML solamente el contenido entre `<body>` y `</body>` de la plantilla. Deja CSS y JavaScript vacíos. El enlace precargado de la práctica se añadirá cuando esté guardado y probado.
+**Uso en CodePen:** Copia al panel HTML solamente el contenido entre `<body>` y `</body>` de la plantilla. Deja CSS y JavaScript vacíos. Abre la práctica en CodePen desde el enlace de esta lección.
 
 **Duración de grabación prevista:** Aproximadamente 6 minutos con escritura, búsqueda de la imagen y demostraciones, según el ensayo.
 
