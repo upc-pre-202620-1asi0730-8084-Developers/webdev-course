@@ -25,11 +25,11 @@ Estas preguntas pueden trasladarse a Google Forms, como propone la guía del equ
 **4. ¿Qué parte indica el destino de este enlace?**
 
 ```html
-<a href="https://es.wikipedia.org/">Wikipedia en español</a>
+<a href="https://www.infobae.com/tecno/2026/10/24/los-robots-pato-de-nvidia-que-duermen-y-juegan-tuvieron-20000-pedidos-de-preventa-en-un-dia/">la noticia del robot pato en Infobae</a>
 ```
 
-- A. `Wikipedia en español`
-- B. `href="https://es.wikipedia.org/"`
+- A. `la noticia del robot pato en Infobae`
+- B. `href="https://www.infobae.com/tecno/2026/10/24/los-robots-pato-de-nvidia-que-duermen-y-juegan-tuvieron-20000-pedidos-de-preventa-en-un-dia/"`
 - C. `</a>`
 
 ## Clave y retroalimentación

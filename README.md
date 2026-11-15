@@ -123,16 +123,16 @@ A través de seis lecciones aprenderás cómo funcionan los sitios web, cómo or
   <li>Construir robots</li>
 </ul>
 
-<h2>Mi espacio para crear</h2>
-<img src="https://placehold.co/320x180/png?text=Mi+zona+creativa"
-     alt="Recuadro con el texto Mi zona creativa"
+<h2>El robot deseado</h2>
+<img src="https://www.infobae.com/resizer/v2/AWR5GN3IYREQVHYM22WCQFYACE.png?auth=e519c915660f123c03cc4c3414fba9c4d6fe8ae0ae2d55573b20120bd41d75c3&amp;smart=true&amp;width=1200&amp;height=900&amp;quality=85"
+     alt="Robot con forma de pato"
      width="320"
-     height="180">
+     height="240">
 
 <p>
-    Para descubrir nuevos temas, visita
-    <a href="https://es.wikipedia.org/" target="_blank" rel="noopener">
-        Wikipedia en español
+    Para conocer este robot, lee
+    <a href="https://www.infobae.com/tecno/2026/10/24/los-robots-pato-de-nvidia-que-duermen-y-juegan-tuvieron-20000-pedidos-de-preventa-en-un-dia/" target="_blank" rel="noopener">
+        la noticia del robot pato en Infobae
     </a>.
 </p>
 ```

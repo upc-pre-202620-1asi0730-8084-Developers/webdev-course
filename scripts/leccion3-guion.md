@@ -93,19 +93,19 @@ El PDF pide listas y menciona ul en el ejemplo de la lección 3. La lista ordena
 >
 > Esta lista de juegos pertenece a Jugar videojuegos. Por eso colocamos ol dentro de ese li y lo cerramos antes de pasar a Escuchar música. Construir robots se queda como nuestro tercer pasatiempo.
 
-**Transición:** Después del cierre de la lista principal ul, continuar con el h2 Mi espacio para crear y la imagen del siguiente bloque.
+**Transición:** Después del cierre de la lista principal ul, continuar con el h2 El robot deseado y la imagen del siguiente bloque.
 
 ## Bloque 3: Una imagen y su descripción (3:15 a 5:30)
 
 **Pantalla y acciones:** Escribir el subtítulo. Añadir `img` por partes: primero `src`, luego `alt`. Explicar las comillas y mostrar la imagen. Añadir las dimensiones al final como detalle breve.
 
 ```html
-<h2>Mi espacio para crear</h2>
+<h2>El robot deseado</h2>
 <img
-  src="https://placehold.co/320x180/png?text=Mi+zona+creativa"
-  alt="Recuadro con el texto Mi zona creativa"
+  src="https://www.infobae.com/resizer/v2/AWR5GN3IYREQVHYM22WCQFYACE.png?auth=e519c915660f123c03cc4c3414fba9c4d6fe8ae0ae2d55573b20120bd41d75c3&amp;smart=true&amp;width=1200&amp;height=900&amp;quality=85"
+  alt="Robot con forma de pato"
   width="320"
-  height="180"
+  height="240"
 >
 ```
 
@@ -113,19 +113,19 @@ El PDF pide listas y menciona ul en el ejemplo de la lección 3. La lista ordena
 
 **Voz:**
 
-> Ya tenemos una lista. Ahora agreguemos una imagen debajo. Escribimos otro subtítulo: Mi espacio para crear. Después usamos img, que sirve para insertar una imagen.
+> Ya tenemos una lista. Ahora agreguemos una imagen debajo. Escribimos otro subtítulo: El robot deseado. Después usamos img, que sirve para insertar una imagen.
 >
 > Esta etiqueta necesita información extra. Esa información se escribe con atributos. El primero es src: indica dónde está la imagen. Piensa en él como una dirección que el navegador sigue para encontrarla. Escribimos src, el signo igual y la dirección entre comillas.
 >
-> Para este ejercicio usamos una imagen sencilla que dice Mi zona creativa. Puedes copiar su dirección desde la plantilla. Si usas otra imagen, necesitas una dirección que entregue la imagen, no la dirección de una página que contiene muchas fotos.
+> Para este ejercicio usamos la imagen de un robot con forma de pato publicada en Infobae. Copiamos la dirección del archivo de imagen en src. En el siguiente bloque enlazaremos la noticia de donde procede: la dirección de la imagen y la de la noticia son diferentes.
 >
-> El siguiente atributo es alt. Aquí describimos el contenido: Recuadro con el texto Mi zona creativa. Esta descripción ayuda a las personas que usan lectores de pantalla. El navegador también puede mostrarla si la imagen no carga.
+> El siguiente atributo es alt. Aquí describimos el contenido: Robot con forma de pato. Esta descripción ayuda a las personas que usan lectores de pantalla. El navegador también puede mostrarla si la imagen no carga.
 >
-> Por eso, si cambias la imagen por un robot, debes cambiar la descripción. Puedes escribir, por ejemplo, Robot pequeño sobre una mesa, si eso es lo que muestra. Poner solamente imagen o foto no ayuda mucho a entender su contenido.
+> Si cambias la imagen, revisa también alt. Aquí describimos lo que muestra: Robot con forma de pato. Poner solamente imagen o foto no ayuda mucho a entender su contenido.
 >
 > Fíjate en un detalle: img no lleva cierre. No escribimos barra img. Es un elemento vacío, porque no contiene texto ni otras etiquetas dentro. Existen otros elementos vacíos en HTML; img es el que necesitamos hoy.
 >
-> Añadimos width y height para indicar sus dimensiones en píxeles: 320 de ancho y 180 de alto. Para esta práctica usamos esos valores. En la siguiente lección veremos cómo CSS nos ayuda a cambiar la apariencia de una página.
+> Añadimos width y height para indicar sus dimensiones en píxeles: 320 de ancho y 240 de alto. Para esta práctica usamos esos valores. En la siguiente lección veremos cómo CSS nos ayuda a cambiar la apariencia de una página.
 
 ## Bloque 4: Un enlace para explorar (5:30 a 7:30)
 
@@ -133,9 +133,9 @@ El PDF pide listas y menciona ul en el ejemplo de la lección 3. La lista ordena
 
 ```html
 <p>
-  Para descubrir nuevos temas, visita
-  <a href="https://es.wikipedia.org/" target="_blank" rel="noopener">
-    Wikipedia en español
+  Para conocer este robot, lee
+  <a href="https://www.infobae.com/tecno/2026/10/24/los-robots-pato-de-nvidia-que-duermen-y-juegan-tuvieron-20000-pedidos-de-preventa-en-un-dia/" target="_blank" rel="noopener">
+    la noticia del robot pato en Infobae
   </a>.
 </p>
 ```
@@ -146,11 +146,11 @@ El PDF pide listas y menciona ul en el ejemplo de la lección 3. La lista ordena
 
 > Nuestra página ya muestra información. ¿Cómo hacemos para que una persona pueda ir desde aquí a otro sitio? Con un enlace. La etiqueta que usamos se llama a.
 >
-> Dentro de su apertura escribimos href, igual y la dirección entre comillas. Este atributo indica el destino. En este caso usaremos Wikipedia en español.
+> Dentro de su apertura escribimos href, igual y la dirección entre comillas. Este atributo indica el destino. En este caso usaremos la noticia de Infobae sobre el robot de la imagen.
 >
-> Entre la apertura y el cierre de a ponemos el texto que verá el visitante: Wikipedia en español. Ese texto puede ser diferente de la dirección. Conviene que diga adónde lleva el enlace, para que la persona sepa qué va a abrir.
+> Entre la apertura y el cierre de a ponemos el texto que verá el visitante: la noticia del robot pato en Infobae. Ese texto puede ser diferente de la dirección. Conviene que diga adónde lleva el enlace, para que la persona sepa qué va a abrir.
 >
-> Vamos a probarlo en la vista previa. Pulso Wikipedia en español y se abre la página. Ya conectamos nuestro pequeño proyecto con otro sitio de internet.
+> Vamos a probarlo en la vista previa. Pulso el enlace y se abre la noticia de Infobae sobre el robot de la imagen. Ya conectamos nuestro pequeño proyecto con otro sitio de internet.
 >
 > Agregamos target con el valor guion bajo blank para pedir que el destino se abra en otra pestaña. Así podemos mantener nuestra práctica abierta. También añadimos rel con el valor noopener, para que la página nueva no tenga acceso a la ventana que la abrió. Puedes copiar estos dos atributos del ejemplo. Lo principal de hoy es recordar que href indica el destino.
 >
