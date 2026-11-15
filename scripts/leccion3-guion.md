@@ -1,75 +1,20 @@
-# Guion de grabación: Lección 3
+# Guion breve de la lección 3
 
-**Tema:** Añadir más elementos HTML.
+**Tema:** Listas, imágenes y enlaces.
 
-**Público:** Estudiantes de 12 a 17 años sin experiencia.
+**Duración orientativa:** 6 minutos con escritura y demostraciones. Ensayar y ajustar dentro de los 5 a 15 minutos por lección que pide el enunciado.
 
-**Duración prevista:** 8 a 10 minutos; ajustar con un ensayo.
+Continuar desde el contenido terminado de la lección 2. No volver a explicar títulos, párrafos, estructura HTML ni el concepto general de atributo. Usar únicamente CodePen en el navegador.
 
-**Herramienta para la demostración:** CodePen en el navegador.
+## Código conjunto para CodePen
 
-**Resultado:** Una página con tres pasatiempos, una imagen con descripción y un enlace.
-
-## Preparación
-
-- Plantilla: [leccion3-starter.html](../starter-files/leccion3-starter.html).
-- Referencia terminada: [leccion3-completo.html](../completed-examples/leccion3-completo.html).
-- Para CodePen, copiar solo lo que está entre `<body>` y `</body>` al panel HTML. No pegar las etiquetas `body` ni la cabecera del documento. Dejar CSS y JavaScript vacíos.
-- Mostrar el código y su vista previa. Escribir los ejemplos por partes mientras se explica su efecto.
-- Los tiempos incluyen escritura y demostración. El texto es una ayuda para hablar con naturalidad, no una duración garantizada.
-
-## Bloque 1: Lo que construiremos (0:00 a 1:00)
-
-**Pantalla y acciones:** Mostrar brevemente el ejemplo terminado. Cambiar a la plantilla con el título y los párrafos de la lección anterior.
-
-**Texto en pantalla:** «Listas + imágenes + enlaces».
-
-**Voz:**
-
-> ¡Hola! En la lección anterior aprendimos a crear títulos y párrafos. Hoy vamos a continuar esa página con tres cosas que vemos todos los días en internet: listas, imágenes y enlaces.
->
-> Imagina una página sobre tus pasatiempos. Puedes escribir un párrafo sobre ellos, pero también puedes organizarlos en una lista, añadir una imagen y dejar un enlace para aprender más. Eso es lo que construiremos juntos.
->
-> Solo necesitas tu navegador. Abre la práctica que está en la descripción. A la izquierda tenemos el código HTML y, al lado, el resultado. Puedes pausar el video cuando necesites más tiempo. Empezamos con el título y los párrafos que ya conocemos.
-
-## Bloque 2: Una lista de pasatiempos (1:00 a 3:15)
-
-**Pantalla y acciones:** Escribir primero el encabezado y una lista con un solo elemento. Esperar a que se actualice la vista previa. Añadir los otros dos elementos. Señalar qué apertura corresponde a cada cierre.
+Pegar en el panel HTML. CSS y JavaScript quedan vacíos. Durante la enseñanza, añadir el contenido por bloques.
 
 ```html
-<h2>Mis actividades favoritas</h2>
-<ul>
-  <li>Jugar videojuegos</li>
-  <li>Escuchar música</li>
-  <li>Construir robots</li>
-</ul>
-```
+<h1>¡Hola, mundo!</h1>
+<p>Estoy aprendiendo a crear mi primera página web.</p>
+<p>Me gustan los videojuegos y la robótica.</p>
 
-**Texto en pantalla:** «ul = lista con viñetas» y «li = un elemento de la lista».
-
-**Voz:**
-
-> Primero escribimos un subtítulo con h2: Mis actividades favoritas. El h1 sigue siendo el título principal. Este h2 anuncia una parte de nuestra página.
->
-> Ahora piensa en una lista de compras. Cada producto ocupa su propia línea. Para organizar nuestros pasatiempos de esa manera usamos ul. Es una lista sin orden numérico: aquí no estamos diciendo cuál actividad va primero o cuál es mejor.
->
-> Dentro escribimos li. Cada li representa un elemento de la lista. Voy a escribir Jugar videojuegos y cerrar con barra, li. Mira la vista previa: ya apareció una viñeta. No tuve que escribir ese punto, el navegador lo añadió.
->
-> Agreguemos dos elementos más: Escuchar música y Construir robots. Cada uno tiene su propia apertura y cierre. Todos están dentro de la misma lista ul.
->
-> Los espacios al principio de estas líneas nos ayudan a leer el código. Vemos que los tres elementos pertenecen a la lista. No son esos espacios los que crean las viñetas: son las etiquetas.
->
-> Hagamos un cambio. Voy a reemplazar Construir robots por Dibujar personajes. El código cambia aquí y la página se actualiza allá. Para personalizar tu lista, puedes cambiar esos textos. ¿Qué escribirías tú? Si quieres una cuarta actividad, añade otro li antes del cierre de ul.
-
-**Demostración:** Cambiar el tercer pasatiempo y volver a «Construir robots», para que el resultado coincida con la referencia.
-
-### Ampliación breve de las listas
-
-El PDF pide listas y menciona ul en el ejemplo de la lección 3. La lista ordenada dentro de un pasatiempo es una ampliación breve. Dedicar unos 45 a 60 segundos, ajustando el ensayo para mantener la lección entre 8 y 10 minutos.
-
-**Pantalla y acciones:** Conservar los tres pasatiempos: Jugar videojuegos, Escuchar música y Construir robots. Dentro del li Jugar videojuegos, añadir una lista ol con los juegos favoritos en orden de preferencia. Este es el código conjunto al terminar el bloque de listas:
-
-```html
 <h2>Mis actividades favoritas</h2>
 <ul>
   <li>
@@ -83,23 +28,7 @@ El PDF pide listas y menciona ul en el ejemplo de la lección 3. La lista ordena
   <li>Escuchar música</li>
   <li>Construir robots</li>
 </ul>
-```
 
-**Voz:**
-
-> Nuestra lista de pasatiempos usa ul porque no estamos indicando un orden. Dentro de Jugar videojuegos voy a añadir mis juegos favoritos por preferencia: primero Mario Bros, después Sonic y luego Legend of Zelda.
->
-> Para numerarlos usamos ol, de ordered list, que significa lista ordenada. Cada juego sigue siendo un li, un elemento de la lista. El navegador añade los números uno, dos y tres.
->
-> Esta lista de juegos pertenece a Jugar videojuegos. Por eso colocamos ol dentro de ese li y lo cerramos antes de pasar a Escuchar música. Construir robots se queda como nuestro tercer pasatiempo.
-
-**Transición:** Después del cierre de la lista principal ul, continuar con el h2 El robot deseado y la imagen del siguiente bloque.
-
-## Bloque 3: Una imagen y su descripción (3:15 a 5:30)
-
-**Pantalla y acciones:** Escribir el subtítulo. Añadir `img` por partes: primero `src`, luego `alt`. Explicar las comillas y mostrar la imagen. Añadir las dimensiones al final como detalle breve.
-
-```html
 <h2>El robot deseado</h2>
 <img
   src="https://www.infobae.com/resizer/v2/AWR5GN3IYREQVHYM22WCQFYACE.png?auth=e519c915660f123c03cc4c3414fba9c4d6fe8ae0ae2d55573b20120bd41d75c3&amp;smart=true&amp;width=1200&amp;height=900&amp;quality=85"
@@ -107,31 +36,7 @@ El PDF pide listas y menciona ul en el ejemplo de la lección 3. La lista ordena
   width="320"
   height="240"
 >
-```
 
-**Texto en pantalla:** «src = dirección de la imagen» y «alt = descripción de la imagen».
-
-**Voz:**
-
-> Ya tenemos una lista. Ahora agreguemos una imagen debajo. Escribimos otro subtítulo: El robot deseado. Después usamos img, que sirve para insertar una imagen.
->
-> Esta etiqueta necesita información extra. Esa información se escribe con atributos. El primero es src: indica dónde está la imagen. Piensa en él como una dirección que el navegador sigue para encontrarla. Escribimos src, el signo igual y la dirección entre comillas.
->
-> Para este ejercicio usamos la imagen de un robot con forma de pato publicada en Infobae. Copiamos la dirección del archivo de imagen en src. En el siguiente bloque enlazaremos la noticia de donde procede: la dirección de la imagen y la de la noticia son diferentes.
->
-> El siguiente atributo es alt. Aquí describimos el contenido: Robot con forma de pato. Esta descripción ayuda a las personas que usan lectores de pantalla. El navegador también puede mostrarla si la imagen no carga.
->
-> Si cambias la imagen, revisa también alt. Aquí describimos lo que muestra: Robot con forma de pato. Poner solamente imagen o foto no ayuda mucho a entender su contenido.
->
-> Fíjate en un detalle: img no lleva cierre. No escribimos barra img. Es un elemento vacío, porque no contiene texto ni otras etiquetas dentro. Existen otros elementos vacíos en HTML; img es el que necesitamos hoy.
->
-> Añadimos width y height para indicar sus dimensiones en píxeles: 320 de ancho y 240 de alto. Para esta práctica usamos esos valores. En la siguiente lección veremos cómo CSS nos ayuda a cambiar la apariencia de una página.
-
-## Bloque 4: Un enlace para explorar (5:30 a 7:30)
-
-**Pantalla y acciones:** Escribir el párrafo y el enlace. Señalar la diferencia entre dirección y texto visible. Pulsar el enlace desde la vista previa y regresar al editor.
-
-```html
 <p>
   Para conocer este robot, lee
   <a href="https://www.infobae.com/tecno/2026/10/24/los-robots-pato-de-nvidia-que-duermen-y-juegan-tuvieron-20000-pedidos-de-preventa-en-un-dia/" target="_blank" rel="noopener">
@@ -140,49 +45,56 @@ El PDF pide listas y menciona ul en el ejemplo de la lección 3. La lista ordena
 </p>
 ```
 
-**Texto en pantalla:** «href = destino del enlace» y «Entre a y /a va el texto visible».
+## Inicio
 
-**Voz:**
+**Tiempo orientativo:** 0:00 a 0:20.
 
-> Nuestra página ya muestra información. ¿Cómo hacemos para que una persona pueda ir desde aquí a otro sitio? Con un enlace. La etiqueta que usamos se llama a.
->
-> Dentro de su apertura escribimos href, igual y la dirección entre comillas. Este atributo indica el destino. En este caso usaremos la noticia de Infobae sobre el robot de la imagen.
->
-> Entre la apertura y el cierre de a ponemos el texto que verá el visitante: la noticia del robot pato en Infobae. Ese texto puede ser diferente de la dirección. Conviene que diga adónde lleva el enlace, para que la persona sepa qué va a abrir.
->
-> Vamos a probarlo en la vista previa. Pulso el enlace y se abre la noticia de Infobae sobre el robot de la imagen. Ya conectamos nuestro pequeño proyecto con otro sitio de internet.
->
-> Agregamos target con el valor guion bajo blank para pedir que el destino se abra en otra pestaña. Así podemos mantener nuestra práctica abierta. También añadimos rel con el valor noopener, para que la página nueva no tenga acceso a la ventana que la abrió. Puedes copiar estos dos atributos del ejemplo. Lo principal de hoy es recordar que href indica el destino.
->
-> Si no añades target, normalmente el enlace abre en el mismo marco o pestaña. Y si no funciona, revisa la dirección, las comillas y que hayas escrito href. Para una imagen usamos src; para el destino de un enlace usamos href.
+**Acción:** Muestra la página de la lección 2 ya preparada en CodePen.
 
-## Bloque 5: Tu turno y cierre (7:30 a 8:30)
+**Diálogo:**
 
-**Pantalla y acciones:** Mostrar la página terminada. Señalar una lista, la imagen y el enlace. Mostrar el reto durante cinco segundos; la práctica la realiza el estudiante al pausar.
+> ¡Hola! Continuaremos nuestra página añadiendo una lista de pasatiempos, la imagen de un robot y un enlace para conocerlo. Abre la práctica de la descripción para acompañarme.
 
-**Texto en pantalla:**
+## Lista de pasatiempos
 
-> PAUSA Y PRACTICA
->
-> 1. Escribe tres pasatiempos en una lista.
-> 2. Añade una imagen con una descripción alt adecuada.
-> 3. Añade un enlace y comprueba que abre el destino correcto.
+**Tiempo orientativo:** 0:20 a 2:10.
 
-**Voz:**
+**Acción:** Escribe primero el ul con los tres pasatiempos. Luego añade el ol dentro de Jugar videojuegos y señala la numeración.
 
-> Repasemos nuestra página. Con ul y li organizamos una lista. Con img mostramos una imagen: src indica su dirección y alt describe su contenido. Con a creamos un enlace y href indica adónde lleva.
->
-> Ahora te toca practicar. Abre el enlace de la descripción y personaliza los tres pasatiempos. Añade una imagen y una descripción que coincida con ella. Por último, crea un enlace a una página que te interese, con un texto que explique el destino.
->
-> Pausa el video y dedica unos tres minutos a probarlo. Puedes tomarte más tiempo si lo necesitas. Antes de terminar, revisa que aparezcan las tres viñetas, que cargue la imagen y que funcione el enlace.
->
-> Si algo falla, vuelve al ejemplo y compara una línea a la vez. Ya sabes añadir más contenido a tu página. En la próxima lección aprenderemos a darle colores y estilo con CSS. ¡Nos vemos!
+**Diálogo:**
 
-## Cuidados técnicos para la explicación
+> Agrupo mis pasatiempos con ul, de unordered list: lista sin orden numérico. Cada li, de list item, es un elemento. Dentro de Jugar videojuegos añado mis favoritos por preferencia: Mario Bros, Sonic y Legend of Zelda. Uso ol, de ordered list, para que aparezcan los números. Esa lista va dentro del li de Jugar videojuegos. Escuchar música y Construir robots siguen siendo los otros pasatiempos.
 
-- Distinguir ul (viñetas), ol (numeración) y li (elemento). Presentar ol y la lista interior como una ampliación breve.
-- No decir que img es la única etiqueta sin cierre.
-- No presentar alt como un texto que aparece al pasar el cursor.
-- No confundir href con src.
-- No añadir estilos CSS ni JavaScript en esta demostración.
-- No introducir nombres del expositor, códigos de estudiante o marcas del equipo en el contenido grabado.
+## El robot deseado
+
+**Tiempo orientativo:** 2:10 a 4:10.
+
+**Acción:** Escribe el h2. Busca robot pato NVIDIA en Google Imágenes, selecciona el resultado de Infobae y abre la noticia. Sobre la foto de la noticia, clic derecho y Copiar dirección de imagen. Pega la dirección entre las comillas de src y completa img. Evita copiar la miniatura de Google.
+
+**Diálogo:**
+
+> Mi robot deseado es este robot con forma de pato. Lo busco en Google Imágenes y abro la noticia de Infobae. Primero necesito su imagen: hago clic derecho sobre la foto y copio la dirección de imagen. La pego en src, de source, que indica su origen. Añado alt, texto alternativo, con la descripción Robot con forma de pato. img viene de image y no lleva cierre. width y height indican ancho y alto. Mira la vista previa: ya aparece el robot.
+
+## Enlace a la noticia
+
+**Tiempo orientativo:** 4:10 a 5:40.
+
+**Acción:** Vuelve a la noticia y copia su URL de la barra de direcciones. En CodePen escribe el párrafo con a, pega la URL en href y prueba el enlace desde la vista previa.
+
+**Diálogo:**
+
+> Ahora quiero que quien vea la imagen pueda leer más sobre este robot. Vuelvo a la noticia, copio la dirección de la barra superior y la pego en href. La etiqueta a, de anchor, crea el enlace; href indica el destino. El texto visible será la noticia del robot pato en Infobae. target con guion bajo blank lo abre en otra pestaña y rel con noopener evita que la página nueva acceda a la ventana original. Hago clic en la vista previa y se abre la noticia. src lleva a la imagen; href, a la información.
+
+## Reto y cierre
+
+**Tiempo orientativo:** 5:40 a 6:00.
+
+**Acción:** Muestra el resultado y el texto Pausa y practica durante cinco segundos.
+
+**Diálogo:**
+
+> Tu turno: cambia los pasatiempos y los juegos, elige una imagen con su descripción y añade un enlace para conocer más. Pausa el video y comprueba que todo funciona. En la siguiente lección le daremos estilo con CSS. ¡Nos vemos!
+
+## Distinción importante
+
+Copiar **dirección de imagen**, no Copiar imagen. Para href, copiar la dirección de la noticia desde la barra del navegador. Los resultados de Google pueden cambiar; identificar el resultado de Infobae por su procedencia.
